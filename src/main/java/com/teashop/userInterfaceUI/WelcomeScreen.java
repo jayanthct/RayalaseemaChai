@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 import main.java.com.teashop.utils.ANSIColors;
 
+
 public class WelcomeScreen {
 
     public void logo(){
@@ -53,9 +54,9 @@ public class WelcomeScreen {
         String reset = ANSIColors.RESET;
         String background = ANSIColors.BACKGROUND_BLACK;
 
-//        logo();
-        System.out.println(ANSIColors.BRIGHT_YELLOW + "                🌶 RAYALASEEMA CHAI 🔥 – One Sip, Full Trip ☕                     " + ANSIColors.RESET);
-        System.out.println(ANSIColors.BRIGHT_YELLOW + "                     ☕ రాయలసీమ టీ | ఊపు‌తో ఊరే లెవల్! 🔥                     " + ANSIColors.RESET);
+        logo();
+        System.out.println(title+ "                🌶 RAYALASEEMA CHAI 🔥 – One Sip, Full Trip ☕                     " + ANSIColors.RESET);
+        System.out.println(title + "                     ☕ రాయలసీమ టీ | ఊపు‌తో ఊరే లెవల్! 🔥                     " + ANSIColors.RESET);
 
         // Print the Fancy UI Header
         System.out.println(border + "╔══════════════════════════════════════════════════════════════════════╗");
