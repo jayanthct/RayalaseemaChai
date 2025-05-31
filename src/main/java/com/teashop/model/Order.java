@@ -28,7 +28,7 @@ public class Order {
 //                }
 //            }
 
-        orders.removeIf(item -> itemId == item.itemId);
+        orders.removeIf(item -> itemId == item.getItemId());
         }catch (Exception e){
             System.out.println("ERRRRRRRRORR");
         }

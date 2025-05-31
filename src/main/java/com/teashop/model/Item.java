@@ -3,14 +3,20 @@ package main.java.com.teashop.model;
 import java.util.ArrayList;
 
 public class Item {
-    int itemId;
-    String itemName;
-    int itemPrice;
+    private int itemId;
+    private String itemName;
+    private int itemPrice;
+    private int itemQuantity;
 
-    public Item(int itemId, String itemName, int itemPrice) {
+    public Item(int itemId, String itemName, int itemPrice, int itemQuantity) {
         this.itemId = itemId;
         this.itemName = itemName;
         this.itemPrice = itemPrice;
+        this.itemQuantity = itemQuantity;
+    }
+
+    public int getItemId() {
+        return itemId;
     }
 
     public ArrayList<Item> Menu(){

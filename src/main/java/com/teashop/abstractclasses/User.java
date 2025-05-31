@@ -11,7 +11,17 @@ public abstract class User {
     protected String userType;
     protected String createdAt;
 
-    // for customer
+    public User(){
+        this.name = null;
+        this.phoneNumber = null;
+
+        this.userType = null;
+        this.createdAt = null;
+    }
+
+
+
+    // for customer constructor
     public User(String name, String phonenumber, String userType) {
         this.name = name;
         this.phoneNumber = phonenumber;
@@ -20,6 +30,7 @@ public abstract class User {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         this.createdAt = now.format(formatter);
     }
+
 
     public String getName() {
         return name;
@@ -35,5 +46,6 @@ public abstract class User {
     }
 
     public abstract void showDashboard();
+
 
 }

@@ -1,6 +1,12 @@
 package main.java.com.teashop.user;
 
 import main.java.com.teashop.abstractclasses.User;
+import main.java.com.teashop.model.Item;
+import main.java.com.teashop.model.Menu;
+import main.java.com.teashop.model.Order;
+import main.java.com.teashop.userInterfaceUI.CustomerUI;
+
+import java.util.ArrayList;
 
 
 public class Customer extends User {
@@ -9,8 +15,18 @@ public class Customer extends User {
         super(name,phonenumber,"customer");
     }
 
+    // must implement the USER abstract class abstract methods
     @Override
     public void showDashboard() {
         System.out.println("Dashboard of customer");
+    }
+
+    //works
+    public void OrderItems(){
+        System.out.println("Menu Order Items");
+    }
+
+    public void cancelOrder(){
+        System.out.println("Menu Cancel Order");
     }
 }
