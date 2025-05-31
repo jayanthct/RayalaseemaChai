@@ -9,7 +9,7 @@ import main.java.com.teashop.utils.ANSIColors;
 
 public class WelcomeScreen {
 
-    public void logo(){
+    public static void logo(){
         System.out.println(ANSIColors.BRIGHT_YELLOW +
                 "──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────");
         System.out.println("─████████████████───██████████████─████████──████████─██████████████─██████─────────██████████████─██████████████─██████████████─██████████████─██████──────────██████─██████████████─");
@@ -40,7 +40,7 @@ public class WelcomeScreen {
 
     }
 
-    public void start() {
+    public static void start() {
         // Get current date and time
         LocalDateTime now = LocalDateTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");

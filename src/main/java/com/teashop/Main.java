@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) {
 
         //Starting the Application using Welcome
-        WelcomeScreen welcome = new WelcomeScreen();
-        welcome.start();
+        WelcomeScreen.start();
     }
 }

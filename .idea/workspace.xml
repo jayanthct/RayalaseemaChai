@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be126a65-acc7-4f31-badd-fb0a628d4127" name="Changes" comment="WelcomeScreenLogo Class Created (13:00, 30/05/2025)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teashop/model/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teashop/userInterfaceUI/AdminUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teashop/userInterfaceUI/CustomerUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/teashop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teashop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teashop/abstractclasses/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teashop/abstractclasses/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teashop/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teashop/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teashop/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teashop/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teashop/user/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teashop/user/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teashop/user/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teashop/user/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/teashop/userInterfaceUI/WelcomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teashop/userInterfaceUI/WelcomeScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,23 +43,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WelcomeScreen.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/CODES/JavaProject/RayalaseemaChai/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.WelcomeScreen.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/CODES/JavaProject/RayalaseemaChai/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.com.teashop.Main" />
@@ -104,7 +118,8 @@
       <updated>1748583125067</updated>
       <workItem from="1748583126176" duration="6073000" />
       <workItem from="1748590540730" duration="491000" />
-      <workItem from="1748611862831" duration="2092000" />
+      <workItem from="1748611862831" duration="3433000" />
+      <workItem from="1748688311692" duration="3917000" />
     </task>
     <task id="LOCAL-00001" summary="Project Created (11:32, 30/05/2025)">
       <option name="closed" value="true" />
