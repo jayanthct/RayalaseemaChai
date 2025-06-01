@@ -11,7 +11,7 @@ import java.sql.Statement;
 public class DatabaseManager {
 
     //database connection URL
-    private static final String DB_URL = "jdbc:sqlite:rayalaseemachai.db"; //dummy one for reference
+    private static final String DB_URL = "jdbc:sqlite:rayalaseemachai.sqlite"; //dummy one for reference
 
     // Get Connection
     public static Connection getConnection() throws SQLException {

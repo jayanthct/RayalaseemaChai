@@ -18,11 +18,12 @@ public class Customer extends User {
     // must implement the USER abstract class abstract methods
     @Override
     public void showDashboard() {
-        System.out.println("Dashboard of customer");
+        // Starting the Dashboard of Customer
+        CustomerUI.start();
     }
 
     //works
-    public void OrderItems(){
+    public void orderItems(){
         System.out.println("Menu Order Items");
     }
 

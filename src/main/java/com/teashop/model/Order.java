@@ -3,8 +3,8 @@ package main.java.com.teashop.model;
 import java.util.ArrayList;
 
 public class Order {
-    int orderId;
-    ArrayList<Item> orders;
+    private int orderId;
+    private ArrayList<Item> orders;
 
     public Order(int orderId, ArrayList<Item> orders) {
         this.orderId = orderId;
@@ -21,20 +21,10 @@ public class Order {
 
     public void removeItemfromOrder(int itemId) {
         try{
-            //myapproch
-//            for(Item item : orders){
-//                if(itemId==item.itemId){
-//                    orders.remove(item);
-//                }
-//            }
-
         orders.removeIf(item -> itemId == item.getItemId());
         }catch (Exception e){
             System.out.println("ERRRRRRRRORR");
         }
     }
-
-
-
 
 }

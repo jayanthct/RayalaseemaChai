@@ -15,6 +15,11 @@ public class Admin extends User {
         System.out.println("Admin Dashboard");
     }
 
+    //use password to autherize the user as admin
+    public boolean authenticate(String password) {
+        return password.equals("admin123");
+    }
+
     //works
     public void addItem(){
 

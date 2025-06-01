@@ -13,7 +13,7 @@ public class Menu {
 
     public static ArrayList<Item> getMenuItems() {
         ArrayList<Item> menu = new ArrayList<>();
-        String query = "SELECT * FROM items";
+        String query = "SELECT * FROM item";
 
         Connection conn = null;
         Statement stmt = null;
@@ -31,8 +31,7 @@ public class Menu {
                     int id = rs.getInt("item_id");
                     String name = rs.getString("item_name");
                     int price = rs.getInt("item_price");
-                    int quantity = rs.getInt("item_quantity");
-                    menu.add(new Item(id, name, price,quantity));
+                    menu.add(new Item(id, name, price));
                 }
             }
         } catch (SQLException e) {
