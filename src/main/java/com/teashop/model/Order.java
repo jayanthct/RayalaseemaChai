@@ -1,10 +1,12 @@
 package main.java.com.teashop.model;
 
 import java.util.ArrayList;
+import main.java.com.teashop.model.Item;
 
 public class Order {
     private int orderId;
     private ArrayList<Item> orders;
+
 
     public Order(int orderId, ArrayList<Item> orders) {
         this.orderId = orderId;

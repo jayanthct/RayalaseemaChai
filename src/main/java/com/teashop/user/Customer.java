@@ -23,8 +23,9 @@ public class Customer extends User {
     }
 
     //works
-    public void orderItems(){
-        System.out.println("Menu Order Items");
+    public void orderItems(Customer customer){
+        ArrayList<Item> menuItems = Menu.getMenuItems();
+        Menu.printMenu(menuItems,customer.getName(),customer.getPhonenumber());
     }
 
     public void cancelOrder(){
